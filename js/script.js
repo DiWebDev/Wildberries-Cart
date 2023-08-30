@@ -190,7 +190,7 @@ class UI {
     const checkBoxes = [...document.querySelectorAll(".checkbox-order")];
     //  buttonsDOM = checkBoxes;
     checkBoxes.forEach((checkBox) => {
-      checkBox.addEventListener("clikc", (event) => {
+      checkBox.addEventListener("click", (event) => {
         switch (true) {
           case event.target.dataset.id === "all":
             if (event.target.checked === false) {
